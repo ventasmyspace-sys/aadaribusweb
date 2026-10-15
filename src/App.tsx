@@ -247,7 +247,7 @@ function Hero() {
           </p>
           <h1 className="font-serif text-6xl md:text-7xl lg:text-8xl font-light leading-[1.05] mb-6 animate-fade-up opacity-0 delay-100" style={{ animationFillMode: 'forwards' }}>
             Presencias digitales{' '}
-            <span className="gold-gradient italic">Super extraordinarias</span>
+            <span className="gold-gradient italic">extraordinarias</span>
           </h1>
           <p className="text-[#F8F4EE]/70 text-lg font-light leading-relaxed max-w-xl mb-10 animate-fade-up opacity-0 delay-200" style={{ animationFillMode: 'forwards' }}>
             Creamos experiencias web que capturan la esencia de los hoteles y restaurantes más exclusivos. Cada pixel, una declaración de lujo.
