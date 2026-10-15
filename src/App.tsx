@@ -133,9 +133,9 @@ const TESTIMONIALS = [
 
 const STATS = [
   { icon: Briefcase, value: '50+', label: 'Proyectos' },
-  { icon: Users, value: '38', label: 'Clientes' },
-  { icon: Award, value: '12', label: 'Premios' },
-  { icon: Clock, value: '6+', label: 'Años' },
+  { icon: Users, value: '30+', label: 'Clientes' },
+  { icon: Award, value: '12+', label: 'Futuros clientes' },
+  { icon: Clock, value: '5+', label: 'Años' },
 ];
 
 function Navbar() {
@@ -441,7 +441,7 @@ function About() {
               className="absolute bottom-0 right-0 w-3/5 h-60 object-cover rounded-sm border-4 border-[#1A1A1A]"
             />
             <div className="absolute bottom-12 left-8 bg-[#C9A96E] p-6 z-10">
-              <span className="font-serif text-4xl font-light text-[#1A1A1A] block">6+</span>
+              <span className="font-serif text-4xl font-light text-[#1A1A1A] block">5+</span>
               <span className="text-[#1A1A1A]/70 text-xs tracking-widest uppercase">Años de experiencia</span>
             </div>
           </div>
