@@ -7,7 +7,7 @@ import {
 // Configuración desde variables de entorno
 const CONFIG = {
   companyName: import.meta.env.VITE_COMPANY_NAME || 'ventasmyspace',
-  email: import.meta.env.VITE_EMAIL || 'aadaribusweb@ventasmyspace.com',
+  email: import.meta.env.VITE_EMAIL || 'aadaribusweb@gmail.com',
   phone: import.meta.env.VITE_PHONE || '+505 8445 7800',
   location: import.meta.env.VITE_LOCATION || 'Managua, Nicaragua',
   formEndpoint: import.meta.env.VITE_FORM_ENDPOINT || 'https://formspree.io/f/mlgyynop',
@@ -30,7 +30,7 @@ const PORTFOLIO_ITEMS = [
     description: 'Sitio web de reservas con experiencia inmersiva y motor de booking integrado.',
     image: 'https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&w=800',
     tech: ['React', 'Node.js', 'Stripe'],
-    url: 'https://hotelgrandsoleil.example.com',
+    url: 'https://nacar-mu.vercel.app/',
   },
   {
     id: 2,
@@ -40,7 +40,7 @@ const PORTFOLIO_ITEMS = [
     description: 'Plataforma de reservas online con menú interactivo y galería visual.',
     image: 'https://images.pexels.com/photos/1307698/pexels-photo-1307698.jpeg?auto=compress&cs=tinysrgb&w=800',
     tech: ['Vue.js', 'Supabase', 'Tailwind'],
-    url: 'https://maisonblanc.example.com',
+    url: 'https://gustoyfuego.vercel.app/',
   },
   {
     id: 3,
@@ -456,7 +456,7 @@ function About() {
             <div className="section-divider mb-8" />
             <div className="space-y-5 text-[#F8F4EE]/60 font-light leading-relaxed">
               <p>
-                AADARIBUS nació de una convicción: que los negocios de hospitalidad merecen presencias digitales tan impecables como sus propios espacios físicos.
+                AADARIBUSWEB nació de una convicción: que los negocios de hospitalidad merecen presencias digitales tan impecables como sus propios espacios físicos.
               </p>
               <p>
                 Somos especialistas en el sector hotelero y gastronómico. Entendemos el lenguaje visual del lujo, la importancia del primer impacto y el valor de cada reserva directa conseguida.
@@ -682,10 +682,10 @@ function Footer() {
                 <span className="font-serif text-[#C9A96E] text-[10px] font-bold">A</span>
               </div>
             </div>
-            <span className="font-serif text-lg tracking-[0.25em] text-[#F8F4EE]/60 font-light">AADARIBUS</span>
+            <span className="font-serif text-lg tracking-[0.25em] text-[#F8F4EE]/60 font-light">AADARIBUSWEB</span>
           </div>
           <p className="text-[#8C8070] text-xs tracking-wider text-center">
-            © {new Date().getFullYear()} Ventas My Space. Todos los derechos reservados.
+            © {new Date().getFullYear()} AADARIBUS. Todos los derechos reservados.
           </p>
           <nav className="flex gap-6" aria-label="Enlaces legales">
             {['Privacidad', 'Términos', 'Sitemap'].map((l) => (
